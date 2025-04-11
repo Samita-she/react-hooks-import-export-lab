@@ -1,4 +1,6 @@
 import React from "react";
+import { username, city, image } from "../user";  // ✅ Correct path now
+
 
 function Home() {
   return (
@@ -9,3 +11,4 @@ function Home() {
     </div>
   );
 }
+export default Home;
